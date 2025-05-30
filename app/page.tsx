@@ -1,8 +1,34 @@
+import Link from 'next/link'
 import React from 'react'
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className='w-full min-h-screen items-center justify-around flex flex-col px-16 py-8 bg-rose-100'>
+      <h1 className='text-7xl text-rose-800 font-bold'>Map Sample</h1>
+
+      <div className='w-full h-full flex flex-col items-center justify-center gap-12'>
+        <Link
+          href={'/neshan'}
+          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-red-500 hover:bg-red-600 text-white transition-all'
+        >
+          Neshan Sample
+        </Link>
+
+        <Link
+          href={'/leaflet'}
+          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-all'
+        >
+          Leaflet Sample
+        </Link>
+
+        <Link
+          href={'/map'}
+          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all'
+        >
+          Map Sample
+        </Link>
+      </div>
+    </div>
   )
 }
 
