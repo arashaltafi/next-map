@@ -1,0 +1,49 @@
+{
+  "allMaps": [
+    {
+      "id": "1",
+      "title": "اولین حالت نقشه نشان",
+      "description": "بدون هیچ قابلیت اضافه ای فقط نمایش نقشه در صفحه که صرفا جهت آشنایی بوده و همین مقدار در داکیومنت آن قرار دارد",
+      "image": "/map_images/neshan.png",
+      "type_card": "3D",
+      "button_link": "neshan_map",
+      "button_text": "مشاهده جزئیات"
+    },
+    {
+      "id": "2",
+      "title": "افزودن مارکر به نقشه",
+      "description": "در این بخش مشاهده میکنین که چطور میشه یک مارکر رو به نقشه نشان اضافه کنیم و در زمان کلیک شدن روی نقشه موقعیت مکانی رو گرفته و ازش استفاده کنیم",
+      "image": "/map_images/neshan_marker.png",
+      "type_card": "3D",
+      "button_link": "add_marker_neshan_map",
+      "button_text": "مشاهده جزئیات"
+    },
+    {
+      "id": "3",
+      "title": "افزودن قابلیت findMeUser",
+      "description": "از طریق گرفتن دسترسی به موقعیت مکانی کاربر موقعیت کاربر رو پیدا کرده و میتوانیم آنرا به کاربر نمایش بدیم که خب قابلیت مفید و کاربردی هست",
+      "image": "/map_images/neshan.png",
+      "type_card": "3D",
+      "button_link": "add_find_location_user_neshan_map",
+      "button_text": "مشاهده جزئیات"
+    },
+    {
+      "id": "4",
+      "title": "افزودن قابلیت fullScreen",
+      "description": "با کمک این قابلیت نقشه به صورت تمام صفحه نمایش داده میشود که این قابلیت نیز کاربردی و مفید بوده و میتونین برای کاستوم کرده بهتر نقشه خودتون ازش استفاده کنین",
+      "image": "/map_images/neshan.png",
+      "type_card": "3D",
+      "button_link": "add_full_screen_neshan_map",
+      "button_text": "مشاهده جزئیات"
+    },
+    {
+      "id": "5",
+      "title": "فیکس شدن مارکر در وسط صفحه هنگام جا به جا کردن نقشه",
+      "description": "بخوام با مثال بهتون بگم این قابلیت میشه مشابه با نقشه اسنپ فود و یا خود اسنپ که شما زمانی که نقشه رو جا به جا میکنید باعث میشه که مارکر در مرکز نقشه براتون فیکس باقی بمونه",
+      "image": "/map_images/neshan.png",
+      "type_card": "3D",
+      "button_link": "fix_marker_neshan_map",
+      "button_text": "مشاهده جزئیات"
+    }
+  ]
+}
