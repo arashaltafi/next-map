@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
 
-// https://github.com/Nariman-Fallahi/IranPlacesAPI
-
 const HomePage = () => {
   return (
     <div className='w-full min-h-screen items-center justify-around flex flex-col px-16 py-8 bg-rose-100'>
