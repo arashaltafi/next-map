@@ -9,23 +9,30 @@ const HomePage = () => {
       <div className='w-full h-full flex flex-col items-center justify-center gap-12'>
         <Link
           href={'/neshan'}
-          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-red-500 hover:bg-red-600 text-white transition-all'
+          className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-red-500 hover:bg-red-600 text-white transition-all'
         >
           Neshan Sample
         </Link>
 
         <Link
           href={'/leaflet'}
-          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-all'
+          className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-all'
         >
           Leaflet Sample
         </Link>
 
         <Link
           href={'/map'}
-          className='text-2xl px-12 py-6 rounded-xl hover:rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all'
+          className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all'
         >
           Map Sample
+        </Link>
+
+        <Link
+          href={'/iran'}
+          className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-yellow-500 hover:bg-yellow-600 text-white transition-all'
+        >
+          Iran Map, Data
         </Link>
       </div>
     </div>
