@@ -15,13 +15,6 @@ const HomePage = () => {
         </Link>
 
         <Link
-          href={'/leaflet'}
-          className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-blue-500 hover:bg-blue-600 text-white transition-all'
-        >
-          Leaflet Sample
-        </Link>
-
-        <Link
           href={'/map'}
           className='text-xl px-10 py-4 rounded-xl hover:rounded-lg bg-green-500 hover:bg-green-600 text-white transition-all'
         >
